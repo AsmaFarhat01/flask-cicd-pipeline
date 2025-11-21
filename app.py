@@ -6,6 +6,7 @@ app = Flask(__name__)
 def home():
     return '''
     <h1>Automated Deployement Pipeline</h1>
+    <p> Hello Devops!</p>
     <p>This Flask app is deployed using docker and Github Actions CI/CD!</p>
     <p>Built By Asma Farhat Shaik</p>
     '''
